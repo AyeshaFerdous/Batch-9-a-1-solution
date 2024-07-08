@@ -108,6 +108,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
+    margin-top: 80px;
 }
 .left-side-content{
     width: 50%;
@@ -147,6 +148,7 @@ body{
   letter-spacing: 0%;
   text-align: center;
   text-transform: uppercase;
+  margin-right: 400px;
 }
 .right-side-content{
     display: flex;
@@ -159,3 +161,54 @@ body{
     height: 464.65px;
 }
 /* midnight section ends */
+
+/* new park hotel starts */
+.new-park-hotel{
+  width: 1320px;
+  height: 482px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  border-radius: 16px;
+
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.new-park-hotel-content{
+    width: 549px;
+    height: 272px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.new-park-hotel-content p{
+    font-family: Inter;
+  font-size: 32px;
+   font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.new-park-hotel-content .text-red{
+    color: red;
+}
+.new-park-hotel-content .btn{
+    color: rgb(255, 255, 255);
+   font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: red;
+  border-radius: 8px;
+  border: none;
+  padding: 16px 32px 16px 32px;
+  margin-top: 35px;
+}
+/* new park hotel ends */
